@@ -40,5 +40,3 @@ A small e-commerce UI built using React to demonstrate component design, state m
 - CSS (No UI libraries)
 - DummyJSON API for product data
 
-## Project Structure
-
