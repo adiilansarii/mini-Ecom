@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,48 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# Mini E-Commerce Product & Cart
+
+A small e-commerce UI built using React to demonstrate component design, state management, and clean React fundamentals.
+
+---
+
+## Features
+
+### Product Listing
+- Displays 15–20 products in a responsive grid layout
+- Shows product name, price, category, and stock status
+- “Add to Cart” button disabled for out-of-stock products
+
+### Filters & Search
+- Search products by name
+- Filter products by category
+- Sort products by price (Low → High, High → Low)
+- Clear all filters option
+- Filters work together (search + category + sort)
+
+### Cart
+- Add and remove products from cart
+- Update item quantity
+- Quantity restricted by available stock
+- Displays total items and total price
+- Instant cart updates
+
+### UI & UX
+- Clean and minimal user interface
+- Clear empty states for product list and cart
+- Product list does not re-render on cart updates
+- Cart and product logic separated using custom hooks
+
+---
+
+## Tech Stack
+
+- React (Functional Components)
+- JavaScript (ES6+)
+- CSS (No UI libraries)
+- DummyJSON API for product data
+
+
+>>>>>>> a9e66fabc4fb6b6334aa790d036def5e1a7ac426
