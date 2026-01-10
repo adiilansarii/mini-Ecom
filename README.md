@@ -4,6 +4,20 @@ A small e-commerce UI built using React to demonstrate component design, state m
 
 ---
 
+## Screenshots
+
+### 🏠 Home Page
+Product listing with search, category filter, sorting, and add-to-cart actions.
+<img width="1920" height="1032" alt="home" src="https://github.com/user-attachments/assets/dd47041c-9761-4674-9728-64c870738fab" />
+
+---
+
+### 🛒 Cart & Filters
+Cart functionality with quantity updates, stock limits, and combined filters (search + category + sort).
+<img width="1920" height="931" alt="Screenshot 2026-01-10 135347" src="https://github.com/user-attachments/assets/b590e751-ab5d-44d6-9a49-b42c97f306c1" />
+
+---
+
 ## Features
 
 ### Product Listing
@@ -40,3 +54,12 @@ A small e-commerce UI built using React to demonstrate component design, state m
 - CSS (No UI libraries)
 - DummyJSON API for product data
 
+---
+
+## Project Setup
+
+```bash
+git clone <repository-url>
+cd mini-ecommerce
+npm install
+npm start
